@@ -3,10 +3,6 @@ import sys
 
 class Solver:
 
-    def solve(self):
-        # for line in sys.stdin:
-            # line_splitted = line.split()
+    def solve(self, inFileStream, out=sys.stdout):
 
-        return "test"
-
-Solver().solve()
+        print "Solve me!"
