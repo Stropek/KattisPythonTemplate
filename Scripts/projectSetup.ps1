@@ -31,9 +31,6 @@ Move-Item *.ans TestFiles
 # delete zip file
 Remove-Item $file
 
-$newSubmitScript = "python kattisSubmit.py -p " + $args[0].ToString().ToLower() + " " + $args[0].ToString().ToLower() + "\Program.cs " + $args[0].ToString().ToLower() + "\InputOutput.cs -f"
-New-Item "submitMe.bat" -type file -force -value $newSubmitScript
-
 #Start-Process Pycharm $workingDir.ToString()
 Start-Process code-insiders $workingDir.ToString()
 
