@@ -8,4 +8,4 @@ class Solution:
         print("Solve me!")
 
 
-# Solution.solve(sys.stdin, sys.stdout)
+# Solution().solve(sys.stdin, sys.stdout)
