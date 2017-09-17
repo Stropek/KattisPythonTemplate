@@ -32,6 +32,6 @@ Move-Item *.ans TestFiles
 Remove-Item $file
 
 #Start-Process Pycharm $workingDir.ToString()
-Start-Process code-insiders $workingDir.ToString()
+Start-Process code-insiders $workingDir.ToString() -NoNewWindow
 
 Remove-Item .git -Recurse -Force
