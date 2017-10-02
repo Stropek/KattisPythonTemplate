@@ -24,3 +24,10 @@ Be sure to uncomment this line:
     Solution().solve(sys.stdin, sys.stdout)
     
 Replace _out_ calls with _print_.
+
+# IDEs
+
+Scaffolding is set to work with *Visual Studio Code*, but if you prefer to use *PyCharm* you can by commenting line 32 and uncommenting line 31 in _projectSetup.ps1_.
+
+    31. #Start-Process Pycharm $workingDir.ToString()
+    32. Start-Process code-insiders $workingDir.ToString() -NoNewWindow
