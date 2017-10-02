@@ -1,6 +1,6 @@
 # Kattis Solution
 
-Python 3.0 scaffolding for solving Kattis problems.
+Python 3 scaffolding for solving Kattis problems.
 
 # Solving
 
