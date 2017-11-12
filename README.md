@@ -1,5 +1,7 @@
 # Kattis Solution
 
+[![Build Status](https://travis-ci.org/Stropek/KattisPythonTemplate.svg?branch=master)](https://travis-ci.org/Stropek/KattisPythonTemplate)
+
 Python 3 scaffolding for solving Kattis problems.
 
 # Solving
