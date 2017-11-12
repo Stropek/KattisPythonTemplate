@@ -1,0 +1,1 @@
+python .\Scripts\submit.py -p {project_id} -m Solution -l Python .\Solution.py .\HelperMethods.py
