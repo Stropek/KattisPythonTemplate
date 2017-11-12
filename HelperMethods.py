@@ -1,7 +1,7 @@
 import sys
 
 def readVal(parse, in_stream):
-    return parse(in_stream.readline().strip("\n").split(' '))
+    return parse(in_stream.readline().strip("\n").split(' ')[0])
 def readValsMap(parse, in_stream):
     return map(parse, in_stream.readline().strip("\n").split(' '))
 def readValsList(parse, in_stream): 
