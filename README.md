@@ -4,13 +4,26 @@
 
 Python 3 scaffolding for solving Kattis problems.
 
+# Prep
+
+* Install VS Code
+* Install VS Code Extensions:
+    * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+    * [Python Test Explorer for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=LittleFoxTeam.vscode-python-test-adapter)
+* Clone this repo
+* Install python packages from _requirements.txt_
+
+# Init
+
+From _Scripts_ directory, run 
+    
+    .\init.ps1 [POBLEM_NAME]
+    
+This should create a *Python* directory next to where you cloned the scaffolding repo, download sample test files for your problem and open VS Code instance ready for you to start working on your solution. 
+
 # Solving
 
 Solutions should go in Solution.py file.
-
-# Setup
-
-Run init.ps1 [POBLEM_NAME] script to setup the project.
 
 # Unit tests
 
@@ -32,4 +45,4 @@ Replace _out_ calls with _print_.
 Scaffolding is set to work with *Visual Studio Code*, but if you prefer to use *PyCharm* you can by commenting line 32 and uncommenting line 31 in _projectSetup.ps1_.
 
     31. #Start-Process Pycharm $workingDir.ToString()
-    32. Start-Process code-insiders $workingDir.ToString() -NoNewWindow
+    32. Start-Process code $workingDir.ToString() -NoNewWindow

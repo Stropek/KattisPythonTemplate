@@ -3,7 +3,7 @@ $baseUrl = "https://open.kattis.com/problems/"
 # Download the file to a specific location
 $clnt = new-object System.Net.WebClient
 
-$workingDir = ".\Python\" + $args[0]
+$workingDir = "..\Python\" + $args[0]
 Set-Location $workingDir
 $workingDir = Get-Location
 Write-Host "Working dir " $workingDir
@@ -33,6 +33,6 @@ Remove-Item $file
 (Get-Content submit.bat).replace('{project_id}', $args[0].ToLower()) | Set-Content submit.bat
 
 #Start-Process Pycharm $workingDir.ToString()
-Start-Process code-insiders $workingDir.ToString() -NoNewWindow
+Start-Process code $workingDir.ToString() -NoNewWindow
 
 Remove-Item .git -Recurse -Force
