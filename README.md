@@ -40,8 +40,6 @@ Be sure to uncomment this line:
 
     Solution().solve(sys.stdin, sys.stdout)
     
-Replace _out_ calls with _print_.
-
 Run *submit.bat*.
 
 # IDEs
