@@ -14,6 +14,9 @@ def readIntsMap(in_stream):
 def readIntsList(in_stream):
     return readValsList(int, in_stream)
 
+def readStr(in_stream):
+    return readVal(str, in_stream)
+
 def write_line(out, text):
     if out == sys.stdout:
         print(str(text) + "\n")

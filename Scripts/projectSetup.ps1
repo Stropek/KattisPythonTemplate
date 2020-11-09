@@ -1,4 +1,4 @@
-$baseUrl = "https://open.kattis.com/problems/"
+$baseUrl = "https://avanade-practice.kattis.com/problems/"
 
 # Download the file to a specific location
 $clnt = new-object System.Net.WebClient
@@ -8,7 +8,7 @@ Set-Location $workingDir
 $workingDir = Get-Location
 Write-Host "Working dir " $workingDir
 
-# https://open.kattis.com/problems/{problem}/file/statement/samples.zip
+# https://avanade-practice.kattis.com/problems/{problem}/file/statement/samples.zip
 $url = $baseUrl + $args[0].ToString().ToLower() + "/file/statement/samples.zip"
 $file = $workingDir.ToString() + "\sampledata.zip"
 $clnt.DownloadFile($url,$file)
