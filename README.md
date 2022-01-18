@@ -12,8 +12,8 @@ Python 3 scaffolding for solving Kattis problems.
     * [Python Test Explorer for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=LittleFoxTeam.vscode-python-test-adapter)
 * Clone this repo
 * Install python packages from _requirements.txt_
-* Log in to [Avanade practice Kattis](https://avanade-practice.kattis.com/)
-* Download your [personal configuration file](https://avanade-practice.kattis.com/download/kattisrc) to your *home* path.
+* Log in to [Open Kattis](https://open.kattis.com/)
+* Download your [personal configuration file](https://open.kattis.com/download/kattisrc) to your *home* path.
 
 # Init
 
